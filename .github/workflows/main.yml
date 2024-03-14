@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Checkout code
+      - name: See files
         run: ls -a
       - name: download robots.txt
         run: curl https://www.digitalocean.com/robots.txt --output robots.txt
